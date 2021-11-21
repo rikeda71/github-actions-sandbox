@@ -7,10 +7,10 @@ on:
 
 jobs:
   github-script:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
       - name: Comment to PR
         uses: actions/github-script@v5
         with:
