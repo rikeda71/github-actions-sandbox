@@ -3,7 +3,7 @@ name: github-script
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   github-script:
